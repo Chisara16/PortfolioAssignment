@@ -1,0 +1,94 @@
+*{
+    font-family: 'Montserrat', sans-serif;}
+
+body{
+    border: 20px solid rgb(224, 168, 199);
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(235, 242, 243);
+    border-bottom: 0;
+    margin-top: 20px;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+}
+.nav .title{
+    padding-left: 30px;
+    display: flex;
+    font-size: 8px;
+    padding-top: 10px;
+}
+
+.navbar{
+    padding-left: 230px;
+}
+
+.navbar li{
+  display: inline;
+  font-size: 8px;
+  align-content: space-between;
+  font-weight: 500;
+  padding: 10px
+}
+
+.navbar li a{
+    text-decoration: none;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;  
+}
+.introduction{
+    display: flex;
+    padding-left: 50px;
+}
+
+.introduction .image{
+    padding: 20px;
+
+}
+.introduction .intro{
+    font-size: small;
+    color: grey;
+}
+.introduction .header{
+    padding-top: 50px;
+}
+
+.My-career{
+    display: flex;
+    padding-left: 70px;
+    padding-bottom: 40px;
+
+}
+
+.career #journey{
+    color: grey;
+    font-size: 12px;
+    max-width: 350px;
+}
+
+.skill{
+    padding-top: 50px;
+}
+
+.skill li{
+    text-decoration: none;
+    display: inline;
+    margin-top:50px;
+    padding: 3px;
+    color: rgb(85, 83, 83) ;
+}
+.skill #html,
+.skill #css,
+.skill #java{
+    border:1px solid grey;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: bold;
+    
+    
+}
